@@ -1,7 +1,7 @@
 import InputElementHookHistory from '../src/InputElementHookHistory';
 
-const IndexHookHistory = () => {
+const indexhookhistory = () => {
   return <InputElementHookHistory />;
 };
 
-export default IndexHookHistory;
+export default indexhookhistory;
