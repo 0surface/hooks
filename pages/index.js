@@ -1,33 +1,31 @@
-import React, {useState} from 'react';
+import React from 'react';
 
+function Index(props) {
+  return (
+    <div>
+      <h1>Module 4 - Examples</h1>
+      <ul>
+        {/* <li>
+          <a href="/indexhook">InputElementHook</a>
+        </li> */}
+        {/* <li>
+          <a href="/indexclass">InputElementClass</a>
+        </li> */}
+        <li>
+          <a href="/indexhookhistory">InputElementHookHistory</a>
+        </li>
+        {/* <li>
+          <a href="/indexclasshistory">InputElementClassHistory</a>
+        </li> */}
+        <li>
+          <a href="/indexchangeonmouseoverhook">ImageToggleOnMouseOverHook</a>
+        </li>
+        {/* <li>
+          <a href="/indexchangeonmouseoverclass">ImageToggleOnMouseOverClass</a>
+        </li> */}
+      </ul>
+    </div>
+  );
+}
 
-const InputElement = () => {
-
-    const [inputText, setInputText] = useState("");
-    const [historyList, setHistoryList] = useState([]);
-
-    return (
-        <div>
-            <input 
-            onChange={(e) =>{
-                setInputText(e.target.value)
-                setHistoryList([...historyList, e.target.value])
-            }}
-            placeholder="Enter some Text"
-        />
-        <br/>
-        {inputText}
-        <hr/><br/>
-        <ul>
-            {
-                historyList.map(rec => {
-                    return <div>{rec}</div>
-                })
-            }
-        </ul>
-
-        </div>
-    );
-};
-
-export default InputElement;
+export default Index;
