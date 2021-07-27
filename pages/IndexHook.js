@@ -1,7 +1,7 @@
 import InputElementHook from '../src/InputElementHook';
 
-const indexHook = () => {
+const IndexHook = () => {
   return <InputElementHook />;
 };
 
-export default indexHook;
+export default IndexHook;

@@ -1,6 +1,6 @@
 import ImageToggleOnMouseOverHook from '../src/ImageToggleOnMouseOverHook';
 
-const indexchangeonmouseoverhook = () => {
+const IndexChangeOnMouseOverHook = () => {
   return (
     <div>
       <ImageToggleOnMouseOverHook
@@ -18,4 +18,4 @@ const indexchangeonmouseoverhook = () => {
   );
 };
 
-export default indexchangeonmouseoverhook;
+export default IndexChangeOnMouseOverHook;
