@@ -26,8 +26,7 @@ const ImageToggleOnScrollHook = ({ primaryImg, secondaryImg }) => {
   };
 
   return (
-    <div>
-      <i>ImageToggleOnMouseOver - Functional Component React Hooks</i>
+    <div>      
       <br />
       <img
         

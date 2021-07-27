@@ -21,7 +21,7 @@ function Index(props) {
           <a href="/indexchangeonmouseoverhook">ImageToggleOnMouseOverHook</a>
         </li>
         <li>
-          <a href="/indexchangeonscrollhook">ImageToggleOnScrollHook</a>
+          <a href="/ImageToggleOnScroll">ImageToggleOnScroll</a>
         </li>
         {/* <li>
           <a href="/indexchangeonmouseoverclass">ImageToggleOnMouseOverClass</a>
